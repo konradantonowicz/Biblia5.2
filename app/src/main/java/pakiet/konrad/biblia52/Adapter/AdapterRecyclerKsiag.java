@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-
 import pakiet.konrad.biblia52.Aktywnosci.AktywnoscGlowna;
 import pakiet.konrad.biblia52.Interface.SluchaczKliknietegoElementuInterfaceKsiegi;
 import pakiet.konrad.biblia52.ModelDanych.NazwyKsiagCzyJestKomentarz;
@@ -22,9 +21,7 @@ public class AdapterRecyclerKsiag extends RecyclerView.Adapter<AdapterRecyclerKs
     private List<NazwyKsiagCzyJestKomentarz> mlista;
     private SluchaczKliknietegoElementuInterfaceKsiegi sluchaczKliknietegoElementuInterfaceKsiegi;
 
-
-
-
+    
     public AdapterRecyclerKsiag(List<NazwyKsiagCzyJestKomentarz> ListaNazwKsiagKomentarzy) {
         this.mlista= ListaNazwKsiagKomentarzy;
     }
