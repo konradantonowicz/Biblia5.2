@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/StaryTestament"
+        android:title="@string/stary_testament" />
+    <item
+        android:id="@+id/NowyTestament"
+        android:title="@string/nowy_testament" />
+    <item
+        android:id="@+id/StaryNowyTestament"
+        android:title="@string/nowy_stary_testament" />
+    <item
+        android:id="@+id/Komentarz"
+        android:title="@string/ksi_gi_z_komentarzem" />
+
+    <item
+        android:id="@+id/tematy_rozne"
+        android:title="@string/r_ne_tematy" />
+
+    <item
+        android:id="@+id/Ustawienia"
+        android:title="@string/ustawienia" />
+    <item
+        android:id="@+id/Szukaj"
+        android:title="@string/szukaj"
+    />
+
+
+</menu>

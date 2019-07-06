@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pakiet.konrad.biblia52">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".Aktywnosci.AktywnoscPokazPrzypisy"></activity>
+        <activity android:name=".Aktywnosci.AktywnoscSzukanieSlow" />
+        <activity android:name=".Aktywnosci.AktywnoscPokazKomentarz" />
+        <activity android:name=".Aktywnosci.AktywnoscPokazTematyKomentarzy" />
+        <activity android:name=".Aktywnosci.AktywnoscUstawienia" />
+        <activity android:name=".Aktywnosci.AktywnoscPokazWersety" />
+        <activity android:name=".Aktywnosci.AktywnoscPokazRozdzialy" />
+        <activity android:name=".Aktywnosci.AktywnoscGlowna">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

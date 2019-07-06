@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@android:color/black"
+    >
+
+    <TextView
+        android:id="@+id/szukaj_ksiega"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_dark"
+        />
+
+    <TextView
+        android:id="@+id/szukaj_rozdzial_wers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/szukaj_ksiega"
+        android:textColor="@android:color/white"
+        />
+
+
+</RelativeLayout>

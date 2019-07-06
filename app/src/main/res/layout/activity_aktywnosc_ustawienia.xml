@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aktywnosci.AktywnoscUstawienia"
+    android:background="@android:color/darker_gray"
+
+    >
+
+
+    <TextView
+        android:id="@+id/czcionki_wersetow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/czcionki"
+        android:textColor="@android:color/white"
+        />
+
+
+
+    <TextView
+        android:id="@+id/werset_nazwa_czcionki"
+        android:layout_width="70sp"
+        android:layout_height="30sp"
+        android:layout_below="@+id/czcionki_wersetow"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:text="@string/nazwa"
+        android:textSize="20sp"
+        android:paddingTop="0sp"
+        android:textColor="@android:color/white"
+
+        />
+
+    <Spinner
+        android:id="@+id/id_werset_spiner_nazwa_czcionki"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_below="@+id/czcionki_wersetow"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/werset_nazwa_czcionki"
+        android:layout_toRightOf="@id/werset_nazwa_czcionki"
+        android:textColor="@android:color/white"
+
+
+        android:spinnerMode="dialog">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/rozmiar_czcionki"
+        android:layout_width="80sp"
+        android:layout_height="30sp"
+        android:layout_below="@+id/werset_nazwa_czcionki"
+        android:layout_marginLeft="30sp"
+        android:text="@string/rozmiar"
+        android:textSize="20sp"
+        android:layout_marginStart="30sp"
+        android:textColor="@android:color/white"
+
+
+        />
+
+    <Spinner
+        android:id="@+id/id_werset_spiner_rozmiar_czcionki"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_below="@+id/id_werset_spiner_nazwa_czcionki"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/rozmiar_czcionki"
+        android:layout_toRightOf="@id/rozmiar_czcionki"
+        android:spinnerMode="dialog">
+        android:textColor="@android:color/white"
+    </Spinner>
+
+
+    <TextView
+        android:id="@+id/kolor_czcionki"
+        android:layout_width="55sp"
+        android:layout_height="30sp"
+        android:layout_below="@+id/rozmiar_czcionki"
+        android:layout_marginLeft="30sp"
+        android:text="@string/kolor"
+        android:textSize="20sp"
+        android:layout_marginStart="30sp"
+        android:textColor="@android:color/white"
+
+        />
+
+    <Spinner
+        android:textColor="@android:color/white"
+        android:id="@+id/id_werset_spiner_kolor_czcionki"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_below="@+id/id_werset_spiner_rozmiar_czcionki"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/kolor_czcionki"
+        android:layout_toRightOf="@id/kolor_czcionki"
+        android:spinnerMode="dialog">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/czcionki_rozdzialow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kolor_czcionki"
+        android:textSize="30sp"
+        android:text="@string/czcionki_rozdzia_w"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/rozdzial_kolor_czcionki"
+        android:layout_width="150sp"
+        android:layout_height="30sp"
+        android:layout_below="@+id/czcionki_rozdzialow"
+        android:layout_marginLeft="30sp"
+        android:text="@string/kolor"
+        android:textSize="20sp"
+        android:layout_marginStart="30sp"
+        android:textColor="@android:color/white"
+
+        />
+
+    <Spinner
+        android:id="@+id/id_rozdzial_spiner_kolor_czcionki"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_below="@+id/czcionki_rozdzialow"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/kolor_czcionki"
+        android:layout_toRightOf="@id/kolor_czcionki"
+        android:spinnerMode="dialog"
+        android:textColor="@android:color/white"
+        >
+
+    </Spinner>
+    <TextView
+        android:id="@+id/czcionki_komentarzy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rozdzial_kolor_czcionki"
+        android:textSize="30sp"
+        android:text="@string/czcionki_komentarzy"
+        android:textColor="@android:color/white"
+        />
+
+
+    <TextView
+        android:id="@+id/komentarz_nazwa_czcionki"
+        android:layout_width="100sp"
+        android:layout_height="30sp"
+        android:layout_below="@+id/czcionki_komentarzy"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:text="@string/nazwa"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+
+        />
+
+    <Spinner
+        android:id="@+id/id_komentarz_spiner_nazwa_czcionki"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_below="@+id/czcionki_komentarzy"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/werset_nazwa_czcionki"
+        android:layout_toRightOf="@id/werset_nazwa_czcionki"
+        android:spinnerMode="dialog"
+        android:textColor="@android:color/white"
+        >
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/komentarz_rozmiar_czcionki"
+        android:layout_width="200sp"
+        android:layout_height="30sp"
+        android:layout_below="@+id/komentarz_nazwa_czcionki"
+        android:layout_marginLeft="30sp"
+        android:text="@string/rozmiar"
+        android:textSize="20sp"
+        android:layout_marginStart="30sp"
+        android:textColor="@android:color/white"
+
+        />
+
+    <Spinner
+        android:id="@+id/id_komentarz_spiner_rozmiar_czcionki"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_below="@+id/id_komentarz_spiner_nazwa_czcionki"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/rozmiar_czcionki"
+        android:layout_toRightOf="@id/rozmiar_czcionki"
+        android:spinnerMode="dialog"
+        android:textColor="@android:color/white"
+        >
+
+    </Spinner>
+
+
+    <TextView
+        android:id="@+id/komentarz1_kolor_czcionki"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_below="@+id/komentarz_rozmiar_czcionki"
+        android:layout_marginLeft="30sp"
+        android:text="@string/komnetrarz_nr_1_kolor"
+        android:textSize="20sp"
+        android:layout_marginStart="30sp"
+        android:textColor="@android:color/white"
+
+        />
+
+    <Spinner
+        android:id="@+id/id_komentarz1_spiner_kolor_czcionki"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_below="@+id/id_komentarz_spiner_rozmiar_czcionki"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/komentarz1_kolor_czcionki"
+        android:layout_toRightOf="@id/komentarz1_kolor_czcionki"
+        android:spinnerMode="dialog"
+        android:textColor="@android:color/white"
+        >
+
+    </Spinner>
+
+
+
+
+
+    <TextView
+        android:id="@+id/komentarz2_kolor_czcionki"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_below="@+id/komentarz1_kolor_czcionki"
+        android:layout_marginLeft="30sp"
+        android:text="@string/komnetrarz_nr_2_kolor"
+        android:textSize="20sp"
+        android:layout_marginStart="30sp"
+        android:textColor="@android:color/white"
+
+        />
+
+    <Spinner
+        android:id="@+id/id_komentarz2_spiner_kolor_czcionki"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_below="@+id/id_komentarz1_spiner_kolor_czcionki"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/komentarz2_kolor_czcionki"
+        android:layout_toRightOf="@id/komentarz2_kolor_czcionki"
+        android:spinnerMode="dialog"
+        android:textColor="@android:color/white"
+        >
+
+    </Spinner>
+
+
+
+
+
+</RelativeLayout>

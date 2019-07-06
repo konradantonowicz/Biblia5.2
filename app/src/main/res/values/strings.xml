@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Biblia 5.2</string>
+    <string name="czcionki">Czcionki wersetów</string>
+    <string name="nazwa">Nazwa</string>
+    <string name="rozmiar">Rozmiar</string>
+    <string name="kolor">Kolor</string>
+    <string name="czcionki_rozdzia_w">Czcionki rozdziałów</string>
+    <string name="czcionki_komentarzy">Czcionki komentarzy</string>
+    <string name="komnetrarz_nr_2_kolor">Komnetrarz nr 2 kolor</string>
+    <string name="komnetrarz_nr_1_kolor">Komnetrarz nr 1 kolor</string>
+    <string name="stary_testament">Stary Testament</string>
+    <string name="nowy_testament">Nowy Testament</string>
+    <string name="nowy_stary_testament">Nowy + Stary Testament</string>
+    <string name="ksi_gi_z_komentarzem">Księgi z Komentarzem</string>
+    <string name="r_ne_tematy">Różne Tematy</string>
+    <string name="ustawienia">Ustawienia</string>
+    <string name="komentarz">komentarz</string>
+    <string name="szukaj">Szukaj</string>
+    <string name="stary">Stary</string>
+    <string name="nowy">Nowy</string>
+    <string name="a">a</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pokaz_przypisy">Pokaż Przypisy</string>
+    <string name="kopiuj_werset">Kopiuj Werset</string>
+</resources>
