@@ -349,7 +349,7 @@ public class Biblia_Komentarze extends SQLiteOpenHelper {
 
             }
             case "58":{
-                //LIST DO HEBRAJCZYKOW//
+                //LIST DO HEBRAJCZYKOW //
                 select.put( "580", "SELECT List_Do_Hebrajczykow_Komentarze._05_rozdzialy,Bible.Verse,Bible.Scripture,List_Do_Hebrajczykow_Komentarze._06_GlowneMysli AS Adresaci FROM Bible INNER JOIN List_Do_Hebrajczykow_Komentarze ON List_Do_Hebrajczykow_Komentarze._01_rowid = Bible._rowid_");
                 select.put( "581", "SELECT List_Do_Hebrajczykow_Komentarze._08_Rozdzialy,Bible.Verse,Bible.Scripture,List_Do_Hebrajczykow_Komentarze._09_AutorAdresaci AS Adresaci FROM Bible INNER JOIN List_Do_Hebrajczykow_Komentarze ON List_Do_Hebrajczykow_Komentarze._07_AutorAdresaci_rowid = Bible._rowid_");
                 select.put( "582","SELECT List_Do_Hebrajczykow_Komentarze._11_Rozdzialy,Bible.Verse,Bible.Scripture,List_Do_Hebrajczykow_Komentarze._12_Bog || ifnull(Ksiega_Objawienia_Komentarze._99_Komentarz,\"\") AS _12_Bog FROM Bible INNER JOIN List_Do_Hebrajczykow_Komentarze ON _10_BogJezusChrystusDuchSwiety_rowid=Bible._rowid_ LEFT JOIN Ksiega_objawienia_Komentarze ON Ksiega_objawienia_komentarze._97_Komentarz_rowid = _10_BogJezusChrystusduchswiety_rowid and ksiega_objawienia_komentarze._98_Dotyczy_Ksiegi=58");
